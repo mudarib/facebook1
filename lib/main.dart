@@ -3,6 +3,7 @@ import 'package:facebook1/deadline.dart';
 void main() {
   runApp(MaterialApp(
     home: NewsFeed(),
+    debugShowCheckedModeBanner: false,
   ));
 }
 
@@ -52,16 +53,16 @@ class NewsFeed extends StatelessWidget {
                       backgroundImage: AssetImage('images/IMG_0722.JPG'),
                     ),
                       onTap: (){print("the lisTile is clicked");},
-                      title: Text("user 1"),
-                      subtitle: Text("march 31 2021"),
+                      title: Text("Rustam Nurhametov"),
+                      subtitle: Text("january 14 2022"),
                       trailing: Icon(Icons.more_horiz),
                   ),
-                  Text("Deadlines helps you to keep moving and deliver"
-                  " content faster and it will increase your efficacy as well."),
+                  Text("Hi! My name is Rustam & this is my first app. "
+                      "You can even click 'Read more' buttom below!"),
                   SizedBox(height: 16,),
                   Expanded(
                       child: Image.asset(
-                        'images/IMG_0901.JPG',
+                        'images/hello world.png',
                       ),
                   ),
                   SizedBox(height: 20,),
@@ -103,15 +104,15 @@ class NewsFeed extends StatelessWidget {
                   children: [
                     ListTile(
                       leading: CircleAvatar(
-                        backgroundImage: AssetImage('images/IMG_0722.JPG'),
+                        backgroundImage: AssetImage('images/bc.jpg'),
                       ),
                       onTap: (){print("the lisTile is clicked");},
-                      title: Text("user 1"),
-                      subtitle: Text("march 31 2021"),
+                      title: Text("brother capital"),
+                      subtitle: Text("february 2 2022"),
                       trailing: Icon(Icons.more_horiz),
                     ),
-                    Text("Deadlines helps you to keep moving and deliver"
-                        " content faster and it will increase your efficacy as well."),
+                    Text("bro-capital.com is one of "
+                        "islamic financing projects"),
                     SizedBox(height: 16,),
                     Expanded(
                       child: Image.asset(
