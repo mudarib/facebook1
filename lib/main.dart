@@ -1,3 +1,4 @@
+import 'package:facebook1/sc.dart';
 import 'package:flutter/material.dart';
 import 'package:facebook1/deadline.dart';
 void main() {
@@ -112,7 +113,7 @@ class NewsFeed extends StatelessWidget {
                       trailing: Icon(Icons.more_horiz),
                     ),
                     Text("bro-capital.com is one of "
-                        "islamic financing projects"),
+                        "islamic investment projects"),
                     SizedBox(height: 16,),
                     Expanded(
                       child: Image.asset(
@@ -133,7 +134,7 @@ class NewsFeed extends StatelessWidget {
                           children: [
                             IconButton(icon: Icon(Icons.read_more), onPressed: (
                                 ){
-                              Navigator.push(context, MaterialPageRoute(builder: (context)=>Deadline()));
+                              Navigator.push(context, MaterialPageRoute(builder: (context)=>SC()));
                             },),
                             Text("Read more")
                           ],
