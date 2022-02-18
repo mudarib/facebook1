@@ -1,6 +1,6 @@
-import 'package:facebook1/sc.dart';
+import 'package:news_feed/sc.dart';
 import 'package:flutter/material.dart';
-import 'package:facebook1/deadline.dart';
+import 'package:news_feed/deadline.dart';
 void main() {
   runApp(MaterialApp(
     home: NewsFeed(),

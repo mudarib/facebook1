@@ -1,4 +1,4 @@
-package com.example.facebook1
+package com.example.news_feed
 
 import io.flutter.embedding.android.FlutterActivity
 
